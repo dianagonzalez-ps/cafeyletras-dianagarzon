@@ -1,0 +1,126 @@
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: rgb(241, 214, 171);
+    --rosa: rgb(226, 194, 185);
+    --verdeclaro: rgb(180, 198, 166);
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: #A0855B;
+  }
+
+.tittleActivities_4{
+      background-color: rgba(226, 194, 185, 0.5);
+      padding-top: 15px;
+  }
+
+
+.tittleActivities_4 img{
+    width: 80%;
+}
+
+.sectionEvents_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgba(226, 194, 185, 0.5);
+    padding-bottom: 30px;
+    
+}
+
+.cardsEvents_2{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 140px;
+    background: rgba(180, 198, 166, 0.7);;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px var(--cafeclaro);
+    transition: all 400ms ease;
+}
+
+.cardsEvents_2:hover{
+    box-shadow: 5px 5px 20px rgba(160, 133, 91, 4);
+}
+
+.cardsEvents_2 img{
+    margin-left: 9px;
+    margin-top: 20px;
+    width: 120px;
+    border-radius: 10%; 
+    border: 5px solid #c1eca7;
+}
+
+.cardsEvents_2 h3{
+    font-family: 'Domine', serif;
+    color: var(--cafe);
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .cardsEvents_2{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: 20px;  
+    }
+    
+   
+    .cardsEvents_2 img{
+        margin-left: 14px;
+        width: 150px;  
+    }
+    
+    .cardsEvents_2 h3{  
+        font-size: 14px;
+    }
+        
+}
+
+@media screen and (min-width:1024px) {
+
+    .cardsEvents_2{
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        margin-left: 30px;  
+    }
+    
+   
+    .cardsEvents_2 img{
+        margin-left: 18px;
+        width: 180px;  
+    }
+    
+    .cardsEvents_2 h3{  
+        font-size: 16px;
+    }
+        
+}
+
+@media screen and (min-width:1200px){
+
+    .cardsEvents_2{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-left: 30px;  
+    }
+    
+   
+    .cardsEvents_2 img{
+        margin-left: 18px;
+        width: 210px;  
+    }
+    
+    .cardsEvents_2 h3{  
+        font-size: 18px;
+    }
+}

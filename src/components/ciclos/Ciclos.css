@@ -1,0 +1,146 @@
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: rgb(241, 214, 171);
+    --rosa: rgb(226, 194, 185);
+    --verdeclaro: #B4C6A6;
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: rgb(160, 133, 91);
+  }
+
+
+.sectcardsclubs_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittleActivities{
+    background-color: rgba(241, 214, 171, 0.5);
+}
+
+
+.cardsClubs_2{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    background: rgba(160, 133, 91,0.7);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px var(--cafeclaro);
+    transition: all 400ms ease;
+}
+
+.cardsClubs_2:hover{
+    box-shadow: 5px 5px 20px rgba(160, 133, 91, 4);
+}
+
+
+.cardsClubs_2 img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 10%;
+}
+
+.cardsClubs_2 h4{
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 14px;
+    color: var(--cafe);
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width:768px){
+
+.sectcardsclubs_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tittleActivities_5 img{
+    width: 80%;
+}
+
+
+.cardsClubs_2{
+    width: 170px;
+    margin-left: 30px;
+}
+
+
+.cardsClubs_2 img{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 10%;
+}
+
+.cardsClubs_2 h4{
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 14px;
+    color: var(--cafe);
+    margin-bottom: 10px;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .tittleActivities_5 img{
+        width: 80%;
+    }
+    
+    .cardsClubs_2{
+        width: 220px;
+        margin-left: 30px;
+    }
+    
+    
+    .cardsClubs_2 img{
+        margin-left: 20px;
+        width: 180px;
+    }
+    
+    .cardsClubs_2 h4{
+        font-family: 'Domine', serif;
+        text-align: center;
+        font-size: 16px;
+        color: var(--cafe);
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+
+
+    .tittleActivities_5 img{
+        width: 80%;
+    }
+    
+    .cardsClubs_2{
+        width: 250px;
+        margin-left: 30px;
+    }
+    
+    
+    .cardsClubs_2 img{
+        margin-left: 20px;
+        width: 210px;
+    }
+    
+    .cardsClubs_2 h4{
+        font-family: 'Domine', serif;
+        text-align: center;
+        font-size: 18px;
+        color: var(--cafe);
+        margin-bottom: 10px;
+    }
+    
+}
+
+

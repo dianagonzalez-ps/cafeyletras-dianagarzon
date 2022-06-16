@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: rgb(241, 214, 171);
+    --rosa: #E2C2B9;
+    --verdeclaro: #B4C6A6;
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: #A0855B;
+  }
+  
+
+.tittleActivities_2 img{
+    width: 80%;
+}
+
+.vector{
+    position: relative;
+    bottom: 50rem;
+}
+
+    .sectionEvents{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    
+    .cardsEvents{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 130px;
+        background: rgba(160, 133, 91, 0.6);
+        margin-right: 8px;
+        margin-left: 10px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px var(--cafeclaro);
+        transition: all 400ms ease;
+    }
+    
+    .cardsEvents:hover{
+        box-shadow: 5px 5px 20px rgba(160, 133, 91, 4);
+    }
+
+    .cardsEvents h4{
+        font-size:14px;
+        color: var(--cafe);
+    }
+
+
+    .cardsEvents img{
+        width: 115px;
+        height: 90px;
+        border-radius: 10%;
+        margin-left: 8px;    
+    }
+
+    .cardsEvents h3{
+        font-size: 12px;
+        color: var(--cafe);
+        font-family: 'Domine', serif;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    
+    .tDate{
+        font-size: 12px;
+        text-align: center;
+        margin: 8px;
+        margin-top: 12px;
+        color: var(--darkbrown);
+    }
+
+    @media screen and (min-width:768px) {
+
+        .sectionEvents{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .cardsEvents{
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            width: 200px;
+            background: rgba(160, 133, 91, 0.6);
+            margin-right: 8px;
+            margin-left: 10px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 7px var(--cafeclaro);
+        }
+        
+        .cardsEvents img{
+            margin-left: 40px;
+            border-radius: 10%; 
+        }
+
+
+        
+        .tDate{
+            font-size: 14px;
+            text-align: center;
+            margin: 8px;
+            margin-top: 12px;
+            color: var(--cafe);
+        }
+    }
+
+    @media screen and (min-width:1024px){
+    
+    .sectionEvents{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .cardsEvents{
+        display: flex;
+        flex-wrap: wrap;
+        width: 15rem;
+        height: 270px;
+        background: rgba(160, 133, 91, 0.6);
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    .cardsEvents img{
+        align-content: center;
+        width: 10rem;
+        height: 10rem;
+
+    }
+    
+    .cardsEvents h4{
+        font-size:25px;
+        color: var(--cafe);
+    }
+
+
+    .cardsEvents h3{
+        font-size: 18px;
+        color: var(--cafe);
+        font-family: 'Domine', serif;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+
+.tittleActivities_2 img{
+    width: 80%;
+}
+
+.sectionEvents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.cardsEvents{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 300px;
+    background: rgba(160, 133, 91, 0.6);
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px var(--lightbrown);
+}
+
+.cardsEvents img{
+    margin-left: 7rem;
+    width: 12rem;
+    height: 12rem;
+
+}
+
+.cardsEvents h4{
+    font-size:28px;
+    color: var(--cafe);
+}
+
+
+.cardsEvents h3{
+    font-size: 20px;
+    color: var(--cafe);
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+}

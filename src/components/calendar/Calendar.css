@@ -1,0 +1,252 @@
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: rgb(241, 214, 171);
+    --rosa: rgb(226, 194, 185);
+    --verdeclaro: #B4C6A6;
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: #A0855B;
+}
+
+body{
+    background-color: rgba(241, 214, 171, 0.6);
+}
+
+
+.tittleActivities_1 img{
+    width: 80%;
+
+}
+
+.captActivities{
+    font-family: 'Domine', serif;
+    color: var(--verdeoscuro);
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 12px;
+
+}
+
+.calendarCont{
+    margin: 2em auto;
+    width: 285px;
+    border: 1.2px solid var(--cafe);
+    border-radius: 15px;
+    padding: 0.8em;
+    background-color: var(--crema);
+
+}
+
+.tittleCalendar{
+    text-align: center;
+    margin: .2em 0;
+    color: #38470B;
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day{
+    list-style: none;
+    text-align: right;
+    font-size: 13px;
+    padding: .2em .4em;
+    padding-top: 1em;
+    color: var(--cafe);
+    font-family: 'Domine', serif;
+    color: var(--cafe);
+    font-weight: 500;   
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+}
+
+.day:hover{
+    background: var(--verdeclaro);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.dayName{
+    background: var(--verdeclaro);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.first-day{
+    grid-column-start: 5;
+}
+
+
+    @media screen and (min-width:768px) {
+        .tittleActivities img{
+            width: 70%;
+        }
+    
+        .slider{
+            height: 380px;
+        }
+        
+        
+        .captActivities{
+            font-size: 17px;
+        
+        }
+        
+        .calendarCont{
+            margin: 2em auto;
+            width: 285px;
+            border: 1.2px solid var(--cafe);
+            border-radius: 15px;
+            padding: 0.8em;
+            background-color: var(--crema);
+        
+        }
+        
+        .tittleCalendar{
+            text-align: center;
+            margin: .2em 0;
+            color: #38470B;
+            font-family: 'Domine', serif;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        .calendar{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+        
+        .day{
+            list-style: none;
+            text-align: right;
+            font-size: 13px;
+            padding: .2em .4em;
+            padding-top: 1em;
+            color: var(--cafe);
+            font-family: 'Domine', serif;
+            color: var(--cafe);
+            font-weight: 500;   
+            cursor: pointer;
+            position: relative;
+            z-index: 1; 
+        }
+        
+        .day:hover{
+            background: var(--verdeclaro);
+            border-radius: 50%;
+            text-align: center;
+        }
+        
+        .dayName{
+            background: var(--verdeclaro);
+            font-weight: bolder;
+            padding: 5px;
+        }
+        
+        .first-day{
+            grid-column-start: 5;
+        }
+
+    }   
+    
+    
+    @media screen and (min-width:1024px) {
+        
+        .slider{
+            height: 450px;
+        }
+        
+        
+        .captActivities{
+            margin-top: 3rem;
+            font-size: 25px;
+        
+        }
+        
+        .calendarCont{
+            width: 380px;
+            height: 350px;
+          
+        }
+        
+        .tittleCalendar{
+            font-size: 20px; 
+        }
+        
+        .calendar{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+        
+        .day{
+            font-size: 20px;
+            
+        }
+        
+        .day:hover{
+            background: var(--verdeclaro);
+            border-radius: 50%;
+            text-align: center;
+        }
+        
+        .dayName{
+            background: var(--verdeclaro);
+            font-weight: bolder;
+            padding: 5px;
+        }
+        
+        .first-day{
+            grid-column-start: 5;
+        }
+        
+    }
+
+
+    @media screen and (min-width:1200px){      
+        .captActivities{
+            margin-top: 3rem;
+            font-size: 30px;
+        }
+        
+        .calendarCont{
+            width: 400px;
+            height: 380px;
+          
+        }
+        
+        .tittleCalendar{
+            font-size: 25px; 
+        }
+        
+        .calendar{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+        
+        .day{
+            font-size: 20px;   
+        }
+        
+        .day:hover{
+            background: var(--verdeclaro);
+            border-radius: 50%;
+            text-align: center;
+        }
+        
+        .dayName{
+            background: var(--verdeclaro);
+            font-weight: bolder;
+            padding: 5px;
+        }
+        
+        .first-day{
+            grid-column-start: 5;
+        }
+
+    }

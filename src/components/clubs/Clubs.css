@@ -1,0 +1,216 @@
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: rgb(241, 214, 171);
+    --rosa: #E2C2B9;
+    --verdeclaro: #B4C6A6;
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: #A0855B;
+}
+
+.tittleActivities1{
+    background-color: rgba(255, 250, 195, 0.8);
+}
+
+.tittleActivities1 h3{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.tittleActivities1 img{
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+
+.sectionClubs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 250, 195, 0.8);
+}
+
+
+.tactivites{
+    margin-top: 50px;
+    font-family: 'Domine', serif;
+    text-align: center;
+    color: var(--verdeoscuro);
+    font-size: 13px;
+}
+
+.cardsClubs{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    background: var(--rosa);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px var(--cafeclaro);
+    transition: all 400ms ease;
+}
+
+.cardsClubs:hover{
+    box-shadow: 5px 5px 20px rgba(160, 133, 91, 4);
+}
+
+.cardsClubs img{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    width: 140px;
+    border-radius: 10%;
+    border: 5px solid #f89ec8;
+}
+
+.cardsClubs h4{
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 13px;
+    color: var(--cafe);
+}
+
+.btn_act{
+    background: var(--verdeoscuro);
+    color: var(--crema);
+    width: 130px;
+    height: 22px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid var(--verdeoscuro);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+
+.btn_act i{
+    color: var(--crema);
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+@media screen and (min-width:768px) {
+
+    .tittleActivities1 h3{
+        font-size: 24px;
+    }
+
+    .sectionClubs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .tactivites{
+        font-size: 18px;
+    }
+
+    .tittleActivities1 h4{
+        font-size: 18px;
+    }
+
+    .cardsClubs{
+        width: 190px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px var(--cafeclaro);
+        transition: all 400ms ease;
+    }
+    
+    .cardsClubs img{
+        margin-left: 20px;
+        margin-top: 15px;
+        width: 150px;
+    }
+    
+    .cardsClubs h4{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .btn_act{
+        width: 140px;
+        height: 25px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+   } 
+    
+
+    @media screen and (min-width:1024px){
+
+        .tittleActivities1 h3{
+            font-size: 28px;
+        }
+    
+        .tittleActivities1 h4{
+            font-size: 25px;
+        }
+    
+        .cardsClubs{
+            width: 220px;
+            margin-bottom: 20px;
+            margin-right: 30px;
+        }
+        
+        .cardsClubs img{
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 180px;
+        }
+        
+        .cardsClubs h4{
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .btn_act{
+            width: 180px;
+            height: 30px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        
+    }
+
+    @media screen and (min-width:1200px){
+
+        .tittleActivities1 h3{
+            font-size: 30px;
+        }
+    
+        .tittleActivities1 h4{
+            font-size: 30px;
+        }
+    
+        .cardsClubs{
+            width: 260px;
+            margin-right: 35px;
+        }
+        
+        .cardsClubs img{
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 220px;
+        }
+        
+        .cardsClubs h4{
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .btn_act{
+            width: 218px;
+            height: 30px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+}
+        
+
